@@ -1,0 +1,12 @@
+{
+  "name": "fp-js-workshop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
