@@ -2,7 +2,7 @@ const curry1 = (fn) => {
   return function f1(a) {
     return arguments.length === 0 
       ? f1
-      : fn.apply(this, arguments);
+      : fn(a);
     }
 }
 
